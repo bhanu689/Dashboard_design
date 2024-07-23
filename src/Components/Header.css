@@ -1,0 +1,94 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.incident_header{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.header-right{
+    display: flex;
+   gap: 40px;
+   align-items: center;
+}
+.location{
+    display: flex;
+    
+    align-items: center;
+   
+    
+    width: 140px;
+    background-color: white;
+    height: 40px;
+    justify-content: space-around;
+    border-radius: 30px;
+}
+
+.arrow{
+    color: rgb(26, 186, 239);
+    font-weight: 700;
+    background-color: white;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+   
+}
+
+.user-info{
+    display: flex;
+    align-items: center;
+    
+    width: 170px;
+    background-color: white;
+    height: 40px;
+    justify-content: space-around;
+    border-radius: 30px;
+}
+.B{
+    background-color: #1B2535;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    color: white;
+    text-align: center;
+    padding-top: 5px;
+}
+.non_bio{
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 17.61px;
+}
+
+.icons{
+    display: flex;
+    align-items: center;
+    width: 150px;
+    justify-content: space-around;
+}
+.fill{
+  
+    background-color: white;
+    border-radius: 50%;
+   height: 30px;
+   width: 30px;
+ 
+}
+.bell{
+    font-weight: 700;
+    background-color: white;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+}
+.A{
+    background-color: #1B2535;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    color: white;
+    text-align: center;
+    padding-top: 5px;
+}

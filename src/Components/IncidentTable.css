@@ -1,0 +1,65 @@
+.incident-table {
+    margin-top: 30px;
+    width: 100%;
+    background-color: white;
+    height: 299px;
+    border-collapse: collapse;
+    font-size: 10px;
+  }
+  
+  .incident-table th,
+  .incident-table td {
+    padding: 12px 15px;
+    text-align: left;
+    font-size: 10px;
+    font-family: Raleway;
+  }
+  
+  .incident-table th {
+    font-weight: bold;
+    border-bottom: 1px solid #F1F1F1;
+    font-size: 15px;
+  }
+  
+  .incident-table tbody tr {
+    font-size: 15px;
+  }
+  
+  .incident-table tbody tr:not(:last-child) {
+    border-bottom: none;
+  }
+  
+  .incident-table tbody tr:last-child {
+    border-bottom: 1px solid #F1F1F1;
+  }
+  
+  .incident-table tbody tr:nth-child(even) {
+    font-size: 15px;
+  }
+  
+  .incident-table td {
+    font-size: 15px;
+    
+  }
+  
+  .incident-table td:last-child {
+    border-right: none;
+    font-size: 15px;
+  }
+  
+  .status-cleared {
+    color: #007bff;
+  }
+  
+  .status-open {
+    color: white;
+    background-color: #ff6600;
+    border-radius: 20px;
+    width: 140px;
+    height: 20px;
+  }
+  
+  .icon-download {
+    font-size: 1.5em;
+  }
+  
